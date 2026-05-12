@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Paulo - Desenvolvedor Front-end | Sites por Demanda</title>
+    <meta name="description" content="Sites profissionais por demanda para negócios locais. Desenvolvimento rápido com foco em conversão. WhatsApp: (61) 98300-7760">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-blue': '#00d4ff',
+                        'dark-bg': '#0a0f1a',
+                        'card-glow': 'rgba(0, 212, 255, 0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-dark-bg to-black text-white min-h-screen font-sans antialiased">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-neon-blue/20">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold bg-gradient-to-r from-neon-blue to-cyan-400 bg-clip-text text-transparent">
+                    <i class="fas fa-code mr-2"></i>Pedro Paulo
+                </div>
+                <a href="https://wa.me/5561983007760?text=Olá%20Pedro!%20Quero%20meu%20site%20profissional!" 
+                   class="bg-neon-blue hover:bg-cyan-400 text-black font-bold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-neon-blue/25" 
+                   target="_blank">
+                    <i class="fab fa-whatsapp mr-2"></i>Falar no Whats
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
+        <div class="max-w-6xl mx-auto text-center space-y-8">
+            <!-- Background particles -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none">
+                <div class="absolute -top-40 -right-40 w-80 h-80 bg-neon-blue/10 rounded-full animate-pulse"></div>
+                <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-400/10 rounded-full animate-pulse delay-1000"></div>
+            </div>
+            
+            <div class="relative z-10">
+                <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6 bg-gradient-to-r from-white via-neon-blue to-cyan-400 bg-clip-text text-transparent drop-shadow-2xl">
+                    Sites Profissionais por Demanda
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-10">
+                    Transforme sua empresa em uma <span class="text-neon-blue font-bold">máquina de vendas</span> com desenvolvimento rápido, design moderno e foco total em resultados.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://wa.me/5561983007760?text=Olá%20Pedro!%20Quero%20meu%20site%20profissional!" 
+                       class="bg-gradient-to-r from-neon-blue to-cyan-400 hover:from-cyan-400 hover:to-neon-blue text-black font-bold px-12 py-6 rounded-full text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl shadow-neon-blue/50 hover:shadow-neon-blue/70" 
+                       target="_blank">
+                        <i class="fab fa-whatsapp mr-3"></i>Quero meu site agora
+                    </a>
+                    <div class="flex space-x-4 text-gray-400">
+                        <i class="fas fa-rocket text-2xl text-neon-blue animate-bounce"></i>
+                        <span class="text-lg font-semibold">Entrega em 48h</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-32 px-6 bg-dark-bg">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-24">
+                <h2 class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-white via-neon-blue to-cyan-400 bg-clip-text text-transparent">
+                    Serviços que Convertem
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Soluções técnicas sob medida para o seu negócio local
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group relative bg-black/30 backdrop-blur-xl border border-neon-blue/20 rounded-3xl p-10 hover:bg-neon-blue/5 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-neon-blue/30">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-neon-blue to-cyan-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-neon-blue/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-neon-blue/40 transition-all duration-300 mx-auto">
+                            <i class="fas fa-laptop-code text-3xl text-neon-blue"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">Landing Pages</h3>
+                        <p class="text-gray-400 leading-relaxed">Páginas de alta conversão otimizadas para capturar leads e fechar vendas automaticamente.</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-black/30 backdrop-blur-xl border border-neon-blue/20 rounded-3xl p-10 hover:bg-neon-blue/5 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-neon-blue/30">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-neon-blue to-cyan-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-neon-blue/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-neon-blue/40 transition-all duration-300 mx-auto">
+                            <i class="fas fa-building text-3xl text-neon-blue"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">Sites Institucionais</h3>
+                        <p class="text-gray-400 leading-relaxed">Presença digital profissional que transmite autoridade e confiança para sua marca.</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-black/30 backdrop-blur-xl border border-neon-blue/20 rounded-3xl p-10 hover:bg-neon-blue/5 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-neon-blue/30">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-neon-blue to-cyan-400 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-neon-blue/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-neon-blue/40 transition-all duration-300 mx-auto">
+                            <i class="fas fa-shopping-cart text-3xl text-neon-blue"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">E-commerce</h3>
+                        <p class="text-gray-400 leading-relaxed">Lojas online completas com carrinho, pagamento e gestão de estoque integrada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-32 px-6 bg-gradient-to-t from-black via-dark-bg to-transparent">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-black mb-12 bg-gradient-to-r from-white via-neon-blue to-cyan-400 bg-clip-text text-transparent">
+                <i class="fas fa-paper-plane mr-4"></i>Entre em Contato
+            </h2>
+            <p class="text-xl text-gray-400 mb-16 max-w-2xl mx-auto">
+                Fale diretamente comigo. Respondo em menos de 2 horas.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/5561983007760?text=Olá%20Pedro!%20Vi%20seu%20portfólio%20e%20quero%20falar%20sobre%20meu%20projeto!" 
+                   class="group relative bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 p-10 rounded-3xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/50 text-center" 
+                   target="_blank">
+                    <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-green-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6 backdrop-blur-sm group-hover:bg-white/30 transition-all duration-300">
+                            <i class="fab fa-whatsapp text-3xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2 text-white">WhatsApp</h3>
+                        <p class="text-lg font-mono text-white/90">(61) 98300-7760</p>
+                        <p class="text-sm text-white/70 mt-2">Resposta imediata</p>
+                    </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/pedro-paulo-louzeiro-b311032a6/" 
+                   class="group relative bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 p-10 rounded-3xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/50 text-center" 
+                   target="_blank">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6 backdrop-blur-sm group-hover:bg-white/30 transition-all duration-300">
+                            <i class="fab fa-linkedin text-3xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2 text-white">LinkedIn</h3>
+                        <p class="text-lg font-mono text-white/90">Pedro Paulo Louzeiro</p>
+                        <p class="text-sm text-white/70 mt-2">Portfólio profissional</p>
+                    </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:pedropnlm@gmail.com?subject=Proposta%20Site%20Profissional&body=Olá%20Pedro,%20vi%20seu%20portfólio%20e%20gostei%20muito!%20Gostaria%20de%20falar%20sobre..." 
+                   class="group relative bg-gradient-to-br from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 p-10 rounded-3xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-red-500/50 text-center" 
+                   target="_blank">
+                    <div class="absolute inset-0 bg-gradient-to-r from-red-400 to-red-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
+                    <div class="relative">
+                        <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6 backdrop-blur-sm group-hover:bg-white/30 transition-all duration-300">
+                            <i class="fas fa-envelope text-3xl text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2 text-white">E-mail</h3>
+                        <p class="text-lg font-mono text-white/90">pedropnlm@gmail.com</p>
+                        <p class="text-sm text-white/70 mt-2">Propostas formais</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Final CTA -->
+            <div class="mt-24 pt-16 border-t border-neon-blue/30">
+                <a href="https://wa.me/5561983007760?text=Olá%20Pedro!%20Quero%20meu%20site%20profissional!" 
+                   class="inline-block bg-gradient-to-r from-neon-blue to-cyan-400 hover:from-cyan-400 hover:to-neon-blue text-black font-bold px-16 py-8 rounded-full text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl shadow-neon-blue/50 hover:shadow-neon-blue/70" 
+                   target="_blank">
+                    <i class="fas fa-rocket mr-4 animate-pulse"></i>Começar Projeto Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 text-center text-gray-500 text-sm border-t border-neon-blue/20">
+        <p>&copy; 2024 Pedro Paulo Louzeiro - Desenvolvedor Front-end Sênior | Taguatinga DF</p>
+        <p class="mt-2">Sites que convertem. Resultados reais. <i class="fas fa-star text-neon-blue ml-1"></i></p>
+    </footer>
+
+    <script>
+        // Smooth scroll and animations
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 100);
+        });
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        document.querySelectorAll('.card, .contact-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
